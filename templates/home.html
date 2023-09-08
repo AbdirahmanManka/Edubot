@@ -1,0 +1,54 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy School</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dummy School</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/programs">Programs</a></li>
+                <li><a href="/admissions">Admissions</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Unlocking Your Potential</h2>
+        <p>Discover a world of opportunities at Dummy School.</p>
+        <a href="/programs" class="cta-button">Explore Programs</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat justo eu risus fringilla.</p>
+    </section>
+
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>Learn how to apply and join our community of learners.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to get in touch with us.</p>
+    </section>
+
+    <a href="/chat" class="chat-icon-button">
+        <img src="https://flyclipart.com/thumb2/green-chat-icon-616010.png" alt="Chat Icon" class="chat-icon">
+    </a>
+        
+
+    <footer>
+        <p>&copy; 2023 Dummy School</p>
+    </footer>
+</body>
+</html>

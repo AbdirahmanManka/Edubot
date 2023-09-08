@@ -67,7 +67,7 @@ header nav ul li a {
     border-radius: 5px;
 }
 
-/* Style the other sections */
+
 section {
     padding: 40px 0;
     text-align: center;
@@ -91,7 +91,6 @@ footer {
     padding: 20px 0;
 }
 
-/* Adjust the size of the chat icon */
 .chat-icon {
     width: 50px; /* Adjust the desired width */
     height: auto; /* Automatically adjust the height to maintain aspect ratio */

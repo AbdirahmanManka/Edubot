@@ -91,10 +91,20 @@ footer {
     padding: 20px 0;
 }
 
+/* Adjust the size of the chat icon */
 .chat-icon {
     width: 50px; /* Adjust the desired width */
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
+
+/* Style for the floating chat icon */
+.chat-icon-button {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    right: 20px; /* Adjust the distance from the right */
+    z-index: 999; /* Adjust the z-index to make sure it appears above other elements */
+}
+
 
 
 /* Add responsive styles for smaller screens */

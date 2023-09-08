@@ -156,6 +156,7 @@ footer {
     z-index: 1000; /* Adjust the z-index to ensure it appears above other elements */
     border-radius: 5px;
     overflow: hidden;
+    max-height: 400px; /* Set maximum height to enable scrolling */
 }
 
 /* Display the chat container when the 'show' class is applied */
@@ -169,11 +170,22 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+    position: relative; /* Needed for positioning the close button */
+}
+
+/* Close button (X) styles */
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
 }
 
 /* Chat messages styles */
 .chat-messages {
-    max-height: 300px; /* Adjust the maximum height of chat messages */
+    max-height: 250px; /* Adjust the maximum height of chat messages */
     overflow-y: auto;
     padding: 10px;
 }
@@ -220,4 +232,3 @@ footer {
     cursor: pointer;
     border-radius: 3px;
 }
-

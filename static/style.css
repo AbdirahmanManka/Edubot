@@ -93,7 +93,7 @@ footer {
 
 /* Adjust the size of the chat icon */
 .chat-icon {
-    width: 100px; /* Adjust the desired width */
+    width: 50px; /* Adjust the desired width */
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
 

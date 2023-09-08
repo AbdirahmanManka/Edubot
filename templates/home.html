@@ -42,12 +42,111 @@
         <p>If you have any questions or need assistance, feel free to get in touch with us.</p>
     </section>
 
-    <a href="/chat" class="chat-icon-button">
+    <div class="chat-icon-button">
         <img src="{% static 'img/chat.png' %}" alt="Chat Icon" class="chat-icon">
-    </a>
-        
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            Chatbot
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <div class="chat-input">
+            <div class="user-input-container">
+                <input type="text" id="user-input" placeholder="Type a message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+    
     <footer>
         <p>&copy; 2023 Dummy School</p>
     </footer>
+    <script>
+        const chatContainer = document.querySelector('.chat-container');
+        const chatIcon = document.querySelector('.chat-icon-button');
+
+        // Function to toggle chat container visibility
+        function toggleChatContainer() {
+            chatContainer.classList.toggle('show');
+        }
+
+        // Event listener to toggle chat container on chat icon click
+        chatIcon.addEventListener('click', toggleChatContainer);
+
+        // Get DOM elements
+        const chatMessages = document.getElementById('chat-messages');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+
+        // Define chatbot responses
+        const chatbotResponses = {
+            welcome: "Welcome! Please enter your email.",
+            emailReceived: "Thank you! How can I assist you today? (Choose from: Accounts, Programs, Other Issue)",
+            accountsPrompt: "Sure! Please enter your admission number.",
+            programsPrompt: "Here are the available programs: Program 1, Program 2, Program 3. Please choose one.",
+            otherIssue: "I'm sorry, I can't assist with that at the moment. Please choose from: Accounts, Programs, Other Issue.",
+            goodbye: "Thank you for chatting with us. Have a great day!",
+        };
+
+        // Initialize chat
+        function initializeChat() {
+            appendMessage('chatbot', chatbotResponses.welcome);
+        }
+
+        // Append a message to the chat
+        function appendMessage(sender, message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            messageDiv.textContent = message;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to the latest message
+        }
+
+        // Handle user input
+        function handleUserInput() {
+            const userMessage = userInput.value.trim();
+
+            if (userMessage === '') return;
+
+            appendMessage('user', userMessage);
+
+            // Handle user's message
+            handleChatbotResponse(userMessage);
+
+            // Clear user input
+            userInput.value = '';
+        }
+
+        // Handle chatbot responses
+        function handleChatbotResponse(userMessage) {
+            userMessage = userMessage.toLowerCase();
+
+            if (userMessage.includes('email')) {
+                appendMessage('chatbot', chatbotResponses.emailReceived);
+            } else if (userMessage.includes('accounts')) {
+                appendMessage('chatbot', chatbotResponses.accountsPrompt);
+            } else if (userMessage.includes('programs')) {
+                appendMessage('chatbot', chatbotResponses.programsPrompt);
+            } else {
+                appendMessage('chatbot', chatbotResponses.otherIssue);
+            }
+        }
+
+        // Event listeners
+        sendButton.addEventListener('click', handleUserInput);
+        userInput.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                handleUserInput();
+            }
+        });
+
+        // Start the chat
+        initializeChat();
+
+
+    </script>
 </body>
 </html>

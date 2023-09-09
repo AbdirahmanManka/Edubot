@@ -1,0 +1,248 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the header */
+header {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+#hero {
+    background-image: url('https://strathmore.edu/wp-content/uploads/2023/05/courses.webp');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+#hero h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0096c7;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Adjust the size of the chat icon */
+.chat-icon {
+    width: 50px; /* Adjust the desired width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+/* Style for the floating chat icon */
+.chat-icon-button {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    right: 20px; /* Adjust the distance from the right */
+    z-index: 999; /* Adjust the z-index to make sure it appears above other elements */
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #hero {
+        padding: 80px 0;
+    }
+
+    #hero h2 {
+        font-size: 1.5em;
+    }
+
+    #hero p {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+}
+
+/* Chat container styles */
+.chat-container {
+    display: none;
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    right: 20px; /* Adjust the distance from the right */
+    width: 300px; /* Adjust the desired width */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Adjust the z-index to ensure it appears above other elements */
+    border-radius: 5px;
+    overflow: hidden;
+    max-height: 400px; /* Set maximum height to enable scrolling */
+}
+
+/* Display the chat container when the 'show' class is applied */
+.chat-container.show {
+    display: block;
+}
+
+/* Chat header styles */
+.chat-header {
+    background-color: #0077b6; /* Header background color */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Needed for positioning the close button */
+}
+
+/* Close button (X) styles */
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Chat messages styles with scrollbar */
+.chat-messages {
+    max-height: 250px; /* Adjust the maximum height of chat messages */
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* User message bubble on the right */
+.user-message {
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: #0077b6; /* User message background color */
+    color: #fff; /* User message text color */
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    max-width: 70%; /* Adjust the maximum width for user messages */
+}
+
+/* Bot response message bubble on the left */
+.bot-message {
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: #f0f0f0; /* Bot response background color */
+    color: #000; /* Bot response text color */
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    max-width: 70%; /* Adjust the maximum width for bot responses */
+}
+
+/* Chat input styles */
+.chat-input {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* User input container styles */
+.user-input-container {
+    display: flex;
+    align-items: center;
+}
+
+/* User input styles */
+#user-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Send button styles */
+#send-button {
+    background-color: #0077b6; /* Button background color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}

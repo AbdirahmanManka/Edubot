@@ -1,33 +1,32 @@
 from django.shortcuts import render, redirect
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from .models import Student
-from django.views.decorators.csrf import csrf_exempt
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-
+from django.contrib.auth import authenticate, login, logout
 
 def login(request):
     if request.method == 'POST':
         user_email = request.POST.get('user_email')
         admission_number = request.POST.get('admission_number')
 
-        # Check if the user with provided email and admission number exists
         try:
-            student = Student.objects.get(email=user_email, admission_number=admission_number)
+            # Check if the user with provided email and admission number exists (case-insensitive)
+            student = Student.objects.get(email__iexact=user_email, admission_number=admission_number)
+
             # Set a session variable to indicate that the user is logged in
-            request.session['user_email'] = user_email
-            return redirect('home')  # Redirect to the home page after successful login
+            request.session['user_email'] = student.email  # Use the exact email from the database
+
+            messages.success(request, f"Welcome, {student.name}!")
+            return render(request, 'home.html')  # Redirect to the home page after successful login
+        
         except Student.DoesNotExist:
-            messages.error(request, 'Invalid credentials. Please try again.')
+            # If the student does not exist, show an error message
+            messages.error(request, 'Invalid email or admission number. Please try again.')
 
     return render(request, 'login.html')
 
-@login_required
-def home(request):
-    return render(request, 'home.html')
-
 # Check Email in Database
-@csrf_exempt  # Add CSRF exemption if needed
 def check_email(request):
     if request.method == 'POST':
         user_email = request.POST.get('user_email')
@@ -45,7 +44,6 @@ def check_email(request):
             return JsonResponse({'result': 'Email does not exist'})
 
 # Handle Responses
-@csrf_exempt  # Add CSRF exemption if needed
 def handle_responses(request):
     if request.method == 'POST':
         user_message = request.POST.get('user_message')
@@ -54,7 +52,8 @@ def handle_responses(request):
         bot_response = generate_bot_response(user_message)
 
         return JsonResponse({'bot_response': bot_response})
-    return JsonResponse({})
+    
+    return HttpResponse(status=400)  # Return a 400 Bad Request response for non-POST requests
 
 # Implement your bot response logic here
 def generate_bot_response(user_message):
@@ -70,10 +69,9 @@ def generate_bot_response(user_message):
     for keyword, response in responses.items():
         if keyword in user_message:
             return response
+    
     return "I'm sorry, I didn't understand your message. Please choose from: Accounts, Programs, Other Issue, Goodbye."
-
-from django.contrib.auth import logout
 
 def user_logout(request):
     logout(request)
-    return redirect('login')  # Redirect to the login page after logout
+    return redirect('custom_login')  # Redirect to the custom_login page after logout

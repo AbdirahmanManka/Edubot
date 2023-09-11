@@ -17,7 +17,7 @@ def login(request):
             # Set a session variable to indicate that the user is logged in
             request.session['user_email'] = student.email  # Use the exact email from the database
 
-            messages.success(request, f"Welcome, {student.name}!")
+            # messages.success(request, f"Welcome, {student.name}!")
             user = student.name
             return render(request, 'home.html', {'user': user}) # Redirect to the home page after successful login
         

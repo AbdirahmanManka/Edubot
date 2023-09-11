@@ -35,9 +35,18 @@ def user_logout(request):
     return redirect('custom_login')  # Redirect to the custom_login page after logout
 
 def chatbot_response(request):
-    user_message = request.GET.get('userMessage')  # Get the user's message from the request
-    print(user_message)
-    # Process the user_message and generate a response
-    # You can use a Python function or library for chatbot logic
+    user_message = request.POST.get('userMessage')  
     chatbot_response = generate_chatbot_response(user_message)
     return JsonResponse({'response': chatbot_response})
+
+def generate_chatbot_response(user_message):
+    user_message = user_message.lower()  # Convert the user message to lowercase for case-insensitive comparisons
+
+    if "academics" in user_message:
+        return "You have selected Academics. How can I assist you with academics?"
+    elif "finance" in user_message:
+        return "You have selected Finance. What do you need help with regarding finance?"
+    elif "other" in user_message:
+        return "You have selected Other. Please specify your question or request."
+    else:
+        return "I'm sorry, I couldn't understand your request. Please choose from Academics, Finance, or Other."

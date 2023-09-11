@@ -141,3 +141,7 @@ LOGIN_URL = 'login/'  # URL for the login page
 LOGOUT_URL = 'logout/'  # URL for the logout page
 LOGIN_REDIRECT_URL = 'home'  # URL to redirect to after successful login
 
+CSRF_COOKIE_SECURE = False
+CSRF_COOKIE_SAMESITE = None
+
+

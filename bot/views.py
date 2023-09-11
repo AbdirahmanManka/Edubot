@@ -35,7 +35,7 @@ def user_logout(request):
     return redirect('custom_login')  # Redirect to the custom_login page after logout
 
 def chatbot_response(request):
-    user_message = request.GET.get('message', '')  # Get the user's message from the request
+    user_message = request.GET.get('userMessage')  # Get the user's message from the request
     print(user_message)
     # Process the user_message and generate a response
     # You can use a Python function or library for chatbot logic

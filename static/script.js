@@ -17,20 +17,18 @@ closeBtn.addEventListener('click', toggleChatContainer);
 // Function to send a message to the chatbot and update the chat window
 function sendMessageToChatbot() {
     const userMessage = userInput.value;
-    chatMessages.innerHTML += `<div class="user-message">${userMessage}</div>`;
+    chatMessages.innerHTML += `<div class="user-message">${userMessage}</div><br>`;
 
-    // Clear the user input field
     userInput.value = '';
 
-    // Send the user message to the server for processing
     $.ajax({
-        url: '/chatbot_response/',  // Update with the correct URL
+        url: '/chatbot_response/',  
         data: { message: userMessage },
         dataType: 'json',
         method: 'GET',
         success: function (data) {
             const chatbotResponse = data.response;
-            chatMessages.innerHTML += `<div class="chatbot-message">${chatbotResponse}</div>`;
+            chatMessages.innerHTML += `<div class="chatbot-message">${chatbotResponse}</div><br>`;
         },
         error: function () {
             // Handle errors if any

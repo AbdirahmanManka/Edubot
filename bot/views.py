@@ -27,52 +27,6 @@ def login(request):
 
     return render(request, 'login.html')
 
-# Check Email in Database
-def check_email(request):
-    if request.method == 'POST':
-        user_email = request.POST.get('user_email')
-
-        # Debugging: Print the email being queried
-        print(f"Querying for email: {user_email}")
-
-        # Check if the email exists in the database (case-insensitive)
-        try:
-            student = Student.objects.get(email__iexact=user_email)
-            print(f"Email exists in the database: {student.name}")
-            return JsonResponse({'result': 'Email exists', 'name': student.name})
-        except Student.DoesNotExist:
-            print("Email does not exist in the database")
-            return JsonResponse({'result': 'Email does not exist'})
-
-# Handle Responses
-def handle_responses(request):
-    if request.method == 'POST':
-        user_message = request.POST.get('user_message')
-
-        # Process user message and generate a bot response (replace with your logic)
-        bot_response = generate_bot_response(user_message)
-
-        return JsonResponse({'bot_response': bot_response})
-    
-    return HttpResponse(status=400)  # Return a 400 Bad Request response for non-POST requests
-
-# Implement your bot response logic here
-def generate_bot_response(user_message):
-    user_message = user_message.lower()
-    responses = {
-        'hello': 'Hello! How can I assist you today?',
-        'accounts': 'Sure! Please enter your admission number.',
-        'programs': 'Here are the available programs: Program 1, Program 2, Program 3. Please choose one.',
-        'other issue': "I'm sorry, I can't assist with that at the moment. Please choose from: Accounts, Programs, Other Issue.",
-        'goodbye': 'Thank you for chatting with us. Have a great day!',
-    }
-
-    for keyword, response in responses.items():
-        if keyword in user_message:
-            return response
-    
-    return "I'm sorry, I didn't understand your message. Please choose from: Accounts, Programs, Other Issue, Goodbye."
-
 def user_logout(request):
     logout(request)
     return redirect('custom_login')  # Redirect to the custom_login page after logout

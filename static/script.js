@@ -41,6 +41,8 @@ function sendMessageToChatbot() {
         success: function (data) {
             const chatbotResponse = data.response;
             chatMessages.innerHTML += `<br><div class="bot-message">${chatbotResponse}</div>`;
+
+            chatMessages.scrollTop = chatMessages.scrollHeight;
         },
         error: function () {
             // Handle errors if any

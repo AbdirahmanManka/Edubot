@@ -18,7 +18,8 @@ def login(request):
             request.session['user_email'] = student.email  # Use the exact email from the database
 
             messages.success(request, f"Welcome, {student.name}!")
-            return render(request, 'home.html')  # Redirect to the home page after successful login
+            user = student.name
+            return render(request, 'home.html', {'user': user}) # Redirect to the home page after successful login
         
         except Student.DoesNotExist:
             # If the student does not exist, show an error message

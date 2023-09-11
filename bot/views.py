@@ -1,9 +1,12 @@
+import json
 from django.shortcuts import render, redirect
 from django.http import JsonResponse, HttpResponse
 from .models import Student
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
+from django.http import JsonResponse
+
 
 def login(request):
     if request.method == 'POST':
@@ -30,3 +33,11 @@ def login(request):
 def user_logout(request):
     logout(request)
     return redirect('custom_login')  # Redirect to the custom_login page after logout
+
+def chatbot_response(request):
+    user_message = request.GET.get('message', '')  # Get the user's message from the request
+    print(user_message)
+    # Process the user_message and generate a response
+    # You can use a Python function or library for chatbot logic
+    chatbot_response = generate_chatbot_response(user_message)
+    return JsonResponse({'response': chatbot_response})

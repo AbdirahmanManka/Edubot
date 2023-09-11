@@ -14,59 +14,6 @@ function toggleChatContainer() {
 chatIcon.addEventListener('click', toggleChatContainer);
 closeBtn.addEventListener('click', toggleChatContainer);
 
-// Append a message to the chat
-function appendMessage(sender, message) {
-    const messageDiv = document.createElement('div');
-    messageDiv.className = `message ${sender}`;
-    messageDiv.textContent = message;
-    chatMessages.appendChild(messageDiv);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-}
-
-// Handle user input
-function handleUserInput() {
-    const userMessage = userInput.value.trim();
-
-    if (userMessage === '') return;
-
-    appendMessage('user', userMessage);
-    sendUserMessageToServer(userMessage);
-
-    userInput.value = '';
-}
-
-let userEmailAddress = 'student1@gmail.com';
-
-// Function to send user message to the server
-function sendUserMessageToServer(userMessage) {
-    // Prepare the request data
-    const data = new URLSearchParams();
-    data.append('user_email', userEmailAddress);  // Assuming userEmailAddress is defined
-
-    // Make a POST request to check if email exists
-    fetch('/check_email/', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: data,
-    })
-    .then(response => response.json())
-    .then(data => {
-        const result = data.result;
-        if (result === 'Email exists') {
-            const name = data.name;
-            // Email exists in the database, you can proceed with the chat
-            appendMessage('bot', `Welcome ${name}! How can we help you? Available services: Accounts, Programs, Other Issue.`);
-        } else {
-            // Email doesn't exist, provide feedback to the user
-            appendMessage('bot', 'The provided email does not exist in our database. Please enter a valid email.');
-        }
-    })
-    .catch(error => {
-        console.error('Error checking email:', error);
-    });
-}
 
 // Event listeners for user input
 sendButton.addEventListener('click', handleUserInput);
@@ -74,4 +21,42 @@ userInput.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
         handleUserInput();
     }
+});
+
+$(document).ready(function () {
+    // Function to send a message to the chatbot and update the chat window
+    function sendMessageToChatbot() {
+        const userMessage = $('#user-input').val();
+        $('#chat-messages').append(`<div class="user-message">${userMessage}</div>`);
+
+    
+        $.ajax({
+            url: '/chatbot_response/',  // Update with the correct URL
+            data: { message: userMessage },
+            dataType: 'json',
+            method: 'GET',
+            success: function (data) {
+                const chatbotResponse = data.response;
+                $('#chat-messages').append(`<div class="chatbot-message">${chatbotResponse}</div>`);
+                // Clear the user input field
+                $('#user-input').val('');
+            },
+            error: function () {
+                // Handle errors if any
+                alert('An error occurred while processing your request.');
+            },
+        });
+    }
+
+    // Handle user input
+    $('#send-button').click(function () {
+        sendMessageToChatbot();
+    });
+
+    // Handle Enter key press in the input field
+    $('#user-input').keypress(function (e) {
+        if (e.which === 13) {
+            sendMessageToChatbot();
+        }
+    });
 });

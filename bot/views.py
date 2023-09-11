@@ -42,11 +42,9 @@ def chatbot_response(request):
 def generate_chatbot_response(user_message):
     user_message = user_message.lower()  # Convert the user message to lowercase for case-insensitive comparisons
 
-    if "academics" in user_message:
+    if "1" in user_message:
         return "You have selected Academics. How can I assist you with academics?"
-    elif "finance" in user_message:
-        return "You have selected Finance. What do you need help with regarding finance?"
-    elif "other" in user_message:
-        return "You have selected Other. Please specify your question or request."
+    elif "2" in user_message:
+        return "You have selected Non-Academics. What do you need help with regarding Non-Academics?"
     else:
-        return "I'm sorry, I couldn't understand your request. Please choose from Academics, Finance, or Other."
+        return "I'm sorry, I couldn't understand your request. Please choose either 1 or 2."

@@ -14,21 +14,55 @@ function toggleChatContainer() {
 chatIcon.addEventListener('click', toggleChatContainer);
 closeBtn.addEventListener('click', toggleChatContainer);
 
+// Function to get the CSRF token from cookies
+function getCookie(name) {
+    const cookieValue = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+    return cookieValue ? cookieValue.pop() : '';
+}
+
 // Function to send a message to the chatbot and update the chat window
 function sendMessageToChatbot() {
     const userMessage = userInput.value;
-    chatMessages.innerHTML += `<div class="user-message">${userMessage}</div><br>`;
+    const userMessageElement = document.createElement('div');
+    userMessageElement.className = 'message user-message';
+    userMessageElement.innerText = userMessage;
+    chatMessages.appendChild(userMessageElement);
 
+    // Get the CSRF token from cookies
+    const csrftoken = getCookie('csrftoken');
+
+    // Clear the user input field
     userInput.value = '';
 
+    // Send the user message to the server for processing using POST
     $.ajax({
-        url: '/chatbot_response/',  
-        data: { message: userMessage },
+        url: '/chatbot_response/',  // Update with the correct URL
+        data: { userMessage: userMessage },
         dataType: 'json',
-        method: 'GET',
+        method: 'POST',  // Use POST method
+        headers: { 'X-CSRFToken': csrftoken }, // Include CSRF token in headers
         success: function (data) {
             const chatbotResponse = data.response;
-            chatMessages.innerHTML += `<div class="chatbot-message">${chatbotResponse}</div><br>`;
+
+            // Add typing animation before displaying the response
+            const typingElement = document.createElement('div');
+            typingElement.className = 'message typing-message';
+            typingElement.innerText = 'Typing...';
+            chatMessages.appendChild(typingElement);
+
+            // Delay the response display
+            setTimeout(function () {
+                // Remove the typing animation
+                chatMessages.removeChild(typingElement);
+
+                // Display the bot's response
+                const chatbotResponseElement = document.createElement('div');
+                chatbotResponseElement.className = 'message bot-message';
+                chatbotResponseElement.innerText = chatbotResponse;
+                chatMessages.appendChild(chatbotResponseElement);
+
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }, 1500); // Adjust the delay time (in milliseconds) as needed
         },
         error: function () {
             // Handle errors if any

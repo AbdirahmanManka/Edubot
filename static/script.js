@@ -23,7 +23,10 @@ function getCookie(name) {
 // Function to send a message to the chatbot and update the chat window
 function sendMessageToChatbot() {
     const userMessage = userInput.value;
-    chatMessages.innerHTML += `<br><div class="user-message">${userMessage}</div>`;
+    const userMessageElement = document.createElement('div');
+    userMessageElement.className = 'message user-message';
+    userMessageElement.innerText = userMessage;
+    chatMessages.appendChild(userMessageElement);
 
     // Get the CSRF token from cookies
     const csrftoken = getCookie('csrftoken');
@@ -40,9 +43,26 @@ function sendMessageToChatbot() {
         headers: { 'X-CSRFToken': csrftoken }, // Include CSRF token in headers
         success: function (data) {
             const chatbotResponse = data.response;
-            chatMessages.innerHTML += `<br><div class="bot-message">${chatbotResponse}</div>`;
 
-            chatMessages.scrollTop = chatMessages.scrollHeight;
+            // Add typing animation before displaying the response
+            const typingElement = document.createElement('div');
+            typingElement.className = 'message typing-message';
+            typingElement.innerText = 'Typing...';
+            chatMessages.appendChild(typingElement);
+
+            // Delay the response display
+            setTimeout(function () {
+                // Remove the typing animation
+                chatMessages.removeChild(typingElement);
+
+                // Display the bot's response
+                const chatbotResponseElement = document.createElement('div');
+                chatbotResponseElement.className = 'message bot-message';
+                chatbotResponseElement.innerText = chatbotResponse;
+                chatMessages.appendChild(chatbotResponseElement);
+
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }, 1500); // Adjust the delay time (in milliseconds) as needed
         },
         error: function () {
             // Handle errors if any

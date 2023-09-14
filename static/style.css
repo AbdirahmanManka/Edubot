@@ -190,28 +190,57 @@ footer {
     padding: 10px;
 }
 
-/* User message bubble on the right */
+/* User message bubble on the left */
 .user-message {
-    text-align: right;
+    text-align: left;
     margin-bottom: 10px;
     background-color: #0077b6; /* User message background color */
     color: #fff; /* User message text color */
     border-radius: 10px;
     padding: 5px 10px;
-    display: inline-block;
+    display: block;
     max-width: 70%; /* Adjust the maximum width for user messages */
 }
 
-/* Bot response message bubble on the left */
+/* Bot response message bubble on the right */
 .bot-message {
-    text-align: left;
+    text-align: right;
     margin-bottom: 10px;
     background-color: #f0f0f0; /* Bot response background color */
     color: #000; /* Bot response text color */
     border-radius: 10px;
     padding: 5px 10px;
-    display: inline-block;
+    display: block;
     max-width: 70%; /* Adjust the maximum width for bot responses */
+}
+
+/* Typing animation */
+.typing-message {
+    text-align: right;
+    margin-bottom: 10px;
+    color: #000; /* Typing text color */
+    padding: 5px 10px;
+    display: inline-block;
+    max-width: 70%; /* Adjust the maximum width for typing messages */
+    animation: typing 1s steps(5, end) infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'Typing';
+    }
+    20% {
+        content: 'Typing.';
+    }
+    40% {
+        content: 'Typing..';
+    }
+    60% {
+        content: 'Typing...';
+    }
+    80% {
+        content: 'Typing....';
+    }
 }
 
 /* Chat input styles */

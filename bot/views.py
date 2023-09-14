@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.http import JsonResponse
 from difflib import get_close_matches
-
+from .models import Conversation
 
 def login(request):
     if request.method == 'POST':
@@ -83,3 +83,23 @@ def get_answer_for_question(question, knowledge_base):
     for q in knowledge_base["questions"]:
         if q["question"].lower() == question:
             return q["answer"]
+        
+def save_conversation(request):
+    if request.method == 'POST':
+        user_message = request.POST.get('userMessage')
+        chatbot_response = request.POST.get('chatbotResponse')
+        
+        Conversation.objects.create(
+            user_email=request.session.get('user_email'),  # Assuming you have the user's email in the session
+            message=user_message
+        )
+        
+        Conversation.objects.create(
+            user_email='bot@example.com',  # Use a placeholder email for the bot
+            message=chatbot_response
+        )
+        
+        return JsonResponse({'status': 'success'})
+
+    return JsonResponse({'status': 'error'})
+

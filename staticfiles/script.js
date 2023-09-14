@@ -63,10 +63,34 @@ function sendMessageToChatbot() {
 
                 chatMessages.scrollTop = chatMessages.scrollHeight;
             }, 1500); // Adjust the delay time (in milliseconds) as needed
+
+            saveConversationToDatabase(userMessage, chatbotResponse);
         },
         error: function () {
             // Handle errors if any
             alert('An error occurred while processing your request.');
+        },
+    });
+}
+
+function saveConversationToDatabase(userMessage, chatbotResponse) {
+    // Send a POST request to a Django view that saves the conversation to the database
+    $.ajax({
+        url: '/save_conversation/',  // Create a URL for saving the conversation
+        data: {
+            userMessage: userMessage,
+            chatbotResponse: chatbotResponse,
+        },
+        dataType: 'json',
+        method: 'POST',  // Use POST method
+        headers: { 'X-CSRFToken': csrftoken }, // Include CSRF token in headers
+        success: function () {
+            // Conversation saved successfully
+            console.log('saved');
+        },
+        error: function () {
+            // Handle errors if any
+            alert('An error occurred while saving the conversation.');
         },
     });
 }

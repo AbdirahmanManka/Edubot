@@ -11,14 +11,6 @@
     {
       "question": "hello",
       "answer": "hi"
-    },
-    {
-      "question": "whats your name..?",
-      "answer": "bot"
-    },
-    {
-      "question": "cls",
-      "answer": "quit"
     }
   ]
 }

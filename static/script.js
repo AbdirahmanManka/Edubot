@@ -74,6 +74,8 @@ function sendMessageToChatbot() {
 }
 
 function saveConversationToDatabase(userMessage, chatbotResponse) {
+    const csrftoken = getCookie('csrftoken');
+    
     // Send a POST request to a Django view that saves the conversation to the database
     $.ajax({
         url: '/save_conversation/',  // Create a URL for saving the conversation

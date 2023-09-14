@@ -91,15 +91,13 @@ def save_conversation(request):
         
         Conversation.objects.create(
             user_email=request.session.get('user_email'),  # Assuming you have the user's email in the session
-            message=user_message
+            message=user_message,
+            bot_response=chatbot_response  # Save the bot's response in the bot_response field
         )
-        
-        Conversation.objects.create(
-            user_email='bot@example.com',  # Use a placeholder email for the bot
-            message=chatbot_response
-        )
-        
+    
         return JsonResponse({'status': 'success'})
 
     return JsonResponse({'status': 'error'})
+
+
 

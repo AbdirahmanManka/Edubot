@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "What is the capital of France?",
-      "answer": "Pa"
+      "answer": "Paris"
     },
     {
       "question": "Who wrote Romeo and Juliet?",
@@ -11,6 +11,34 @@
     {
       "question": "hello",
       "answer": "hi"
+    },
+    {
+      "question": "hi",
+      "answer": "hello"
+    },
+    {
+      "question": "When is the next intake?",
+      "answer": "January 2024"
+    },
+    {
+      "question": "What programs will be offered?",
+      "answer": "Engineering or finance"
+    },
+    {
+      "question": "Engineering",
+      "answer": "Software Engeering, Mechanical, Electrical, Eaurospace"
+    },
+    {
+      "question": "Finance",
+      "answer": "CPA, MBA"
+    },
+    {
+      "question": "Any transfers allowed?",
+      "answer": "Inter-program transfer is currently open"
+    },
+    {
+      "question": "Qualifications needed for transer",
+      "answer": "You must have met the institutional cut-off points"
     }
   ]
 }

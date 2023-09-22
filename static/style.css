@@ -13,7 +13,7 @@ body {
 
 /* Style the header */
 header {
-    background-color: #0077b6;
+    background-color: #2d6202;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -60,7 +60,7 @@ header nav ul li a {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0096c7;
+    background-color: #2d6202;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -166,7 +166,7 @@ footer {
 
 /* Chat header styles */
 .chat-header {
-    background-color: #0077b6; /* Header background color */
+    background-color: #2d6202; /* Header background color */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -194,7 +194,7 @@ footer {
 .user-message {
     text-align: right;
     margin-bottom: 10px;
-    background-color: #0077b6; /* User message background color */
+    background-color: #2d6202; /* User message background color */
     color: #fff; /* User message text color */
     border-radius: 10px;
     padding: 5px 10px;
@@ -265,7 +265,7 @@ footer {
 
 /* Send button styles */
 #send-button {
-    background-color: #0077b6; /* Button background color */
+    background-color: #2d6202; /* Button background color */
     color: #fff;
     border: none;
     padding: 5px 10px;

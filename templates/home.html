@@ -5,14 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dummy School</title>
+    <title>JKUAT</title>
     <link rel="icon" type="image/png" href="{% static 'img/ico.png' %}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
     <header>
-        <h1>Welcome to Dummy School</h1>
+        <h1>Welcome to JKUAT</h1>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -25,7 +25,7 @@
 
     <section id="hero">
         <h2>Unlocking Your Potential</h2>
-        <p>Discover a world of opportunities at Dummy School.</p>
+        <p>Discover a world of opportunities at JKUAT</p>
         <a href="/programs" class="cta-button">Explore Programs</a>
     </section>
 
@@ -49,12 +49,32 @@
     </div>
 
     <div class="chat-container">
-        <div class="chat-header">
-            Chatbot
+        <div class="overlap">
+            <div class="rectangle"></div>
+            <img class="img" src="img/frame-2.png" />
+            <img class="rectangle-2" src="img/rectangle-2.png" />
+        </div>
+        <img class="octicon-rocket" src="img/octicon-rocket-16.svg" />
+        <div class="group">
+            <div class="david-bowie-an">
+              <div class="LOGO-wrapper"><img class="LOGO" src="img/logo.svg" /></div>
+              <div class="flexcontainer">
+                <p class="text">
+                  <span class="span">JKUAT<br /></span>
+                </p>
+                <p class="text"><span class="text-wrapper-4">Virtual Assisant</span></p>
+              </div>
+              <div class="overlap-group-wrapper">
+                <div class="overlap-group-2">
+                  <div class="rectangle-3"></div>
+                  <div class="rectangle-4"></div>
+                </div>
+              </div>
+            </div>
             <span class="close-button" id="close-button">×</span>
         </div>
-        <div class="chat-messages" id="chat-messages">
-            <p>Welcome, {{ user }}!</p> <p>How can I help you today?</p>
+        <div class="bot-header chat-messages" id="chat-messages">
+            <p class="welcome-student-name">Welcome, {{ user }}!</p> <p>How can I help you today?</p>
             <!-- Chat messages will be displayed here -->
         </div>
         <div class="chat-input">
@@ -66,7 +86,7 @@
     </div>    
     
     <footer>
-        <p>&copy; 2023 Dummy School</p>
+        <p>&copy; 2023 JKUAT</p>
     </footer>
     <script src="{% static 'script.js' %}"></script>
 </body>

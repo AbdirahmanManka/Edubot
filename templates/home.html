@@ -53,11 +53,12 @@
             <div class="david-bowie-an">
               <div class="LOGO-wrapper"><img class="LOGO" src="{% static 'img/logo.svg' %}" /></div>
               <div class="flexcontainer">
+                <span class="span">Welcome, {{ user }}! To<br /></span>
                 <p class="text">
                   <span class="span">JKUAT<br /></span>
                 </p>
                 <p class="text"><span class="text-wrapper-4">Virtual Assisant</span></p>
-              </div>
+              </div> 
               <div class="overlap-group-wrapper">
                 <div class="overlap-group-2">
                   <div class="rectangle-3"></div>
@@ -67,9 +68,10 @@
             </div>
             <span class="close-button" id="close-button">×</span>
         </div>
-        <div class="bot-header chat-messages" id="chat-messages">
-            <p class="welcome-student-name">Welcome, {{ user }}!</p> <p>How can I help you today?</p>
-            <!-- Chat messages will be displayed here -->
+        <div class="chat-messages-container">
+            <div class="chat-messages" id="chat-messages">
+                <!-- Chat messages will be displayed here -->
+            </div>
         </div>
         <div class="chat-input">
             <div class="user-input-container">

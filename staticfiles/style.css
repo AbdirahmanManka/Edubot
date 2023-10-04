@@ -165,17 +165,16 @@ footer {
 
 /* Chat messages styles with scrollbar */
 .chat-messages {
-    overflow-y: auto; 
-    max-height: 300px;
-    display: inline-block;
-    flex-direction: column;
     overflow-y: auto;
     max-height: calc(844px - 41px - 60px);
+    display: inline-block;
+    flex-direction: column;
     position: absolute;
     width: 100%;
     top: 150px;
     flex-direction: column;
     position: absolute;
+    bottom: 40px;
 }
 
 /* User message bubble on the left */
@@ -247,7 +246,7 @@ footer {
     z-index: 1000; 
     border-radius: 5px;
     overflow: hidden;
-    max-height: 400px; 
+    max-height: 300px; 
     background-color: rgba(255, 255, 255, 1);
     overflow: hidden;
     background: linear-gradient(
@@ -334,7 +333,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 140px;
+    bottom: 200px;
 }
 
 .welcome-student-name {

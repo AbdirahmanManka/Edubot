@@ -171,7 +171,7 @@ footer {
     flex-direction: column;
     position: absolute;
     width: 100%;
-    top: 150px;
+    top: 100px;
     flex-direction: column;
     position: absolute;
     bottom: 40px;
@@ -333,7 +333,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 200px;
+    bottom: 100px;
 }
 
 .welcome-student-name {

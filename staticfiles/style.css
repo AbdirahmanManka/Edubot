@@ -165,6 +165,8 @@ footer {
 
 /* Chat messages styles with scrollbar */
 .chat-messages {
+    overflow-y: auto; 
+    max-height: 300px;
     display: inline-block;
     flex-direction: column;
     overflow-y: auto;
@@ -236,16 +238,16 @@ footer {
 .chat-container {
     display: none;
     position: fixed;
-    bottom: 20px; /* Adjust the distance from the bottom */
-    right: 20px; /* Adjust the distance from the right */
-    width: 300px; /* Adjust the desired width */
+    bottom: 20px; 
+    right: 20px; 
+    width: 300px; 
     background-color: #fff;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* Adjust the z-index to ensure it appears above other elements */
+    z-index: 1000; 
     border-radius: 5px;
     overflow: hidden;
-    max-height: 400px; /* Set maximum height to enable scrolling */
+    max-height: 400px; 
     background-color: rgba(255, 255, 255, 1);
     overflow: hidden;
     background: linear-gradient(

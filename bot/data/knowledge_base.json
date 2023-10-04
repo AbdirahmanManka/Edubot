@@ -39,6 +39,11 @@
     {
       "question": "Qualifications needed for transer",
       "answer": "You must have met the institutional cut-off points"
+    },
+    {
+      "question": "CS",
+      "answer": "Did you mean Computer Science?"
     }
+
   ]
 }

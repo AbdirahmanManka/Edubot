@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Conversation, Student
+from .models import Conversation, Student, UserProfile
 
 class ConversationAdmin(admin.ModelAdmin):
     list_display = ('user_email', 'message', 'timestamp')
@@ -12,3 +12,7 @@ class StudentAdmin(admin.ModelAdmin):
     search_fields = ('email', 'admission_number', 'name')
 
 admin.site.register(Student, StudentAdmin)
+
+@admin.register(UserProfile)
+class UserProfileAdmin(admin.ModelAdmin):
+    list_display = ('user_email', 'admission_number')

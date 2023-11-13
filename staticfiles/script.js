@@ -6,13 +6,17 @@ const userInput = document.getElementById('user-input');
 const closeBtn = document.querySelector('.close-button');
 const sendButton = document.getElementById('send-button');
 
-// Open or close the chat container
-function toggleChatContainer() {
-    chatContainer.classList.toggle('show');
-}
+$(document).ready(function() {
+    $("#chatbot-toggle").click(function() {
+        $("#chat-container").toggle();
+    });
 
-chatIcon.addEventListener('click', toggleChatContainer);
-closeBtn.addEventListener('click', toggleChatContainer);
+    // Close the chat container
+    $("#close-chat").click(function() {
+        $("#chat-container").hide();
+    });
+});
+
 
 // Function to get the CSRF token from cookies
 function getCookie(name) {
@@ -104,3 +108,6 @@ userInput.addEventListener('keypress', function (e) {
         sendMessageToChatbot();
     }
 });
+
+
+

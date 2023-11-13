@@ -44,38 +44,24 @@
         <p>If you have any questions or need assistance, feel free to get in touch with us.</p>
     </section>
 
-    <div class="chat-icon-button">
-        <img src="{% static 'img/chat.png' %}" alt="Chat Icon" class="chat-icon">
+    <button id="chatbot-toggle" aria-label="Open chatbot">
+        💬
+    </button>
+    
+    <div id="chat-container" style="display: none;">
+        <div id="chat-header">
+            <img src="{% static 'img/edu.png' %}" alt="JKUAT Logo" id="chat-logo" />
+            <h2 id="chat-title">JKUAT Chat</h2>
+            <span class="close-button" id="close-chat">&times;</span>
+        </div>
+        <div id="chat-window">
+            <!-- Messages will be appended here -->
+        </div>
+        <div id="input-area">
+            <input type="text" id="chat-input" placeholder="Type your message here..." />
+            <button id="send-button">Send</button>
+        </div>
     </div>
-
-    <div class="chat-container">
-            <div class="david-bowie-an">
-              <div class="LOGO-wrapper"><img class="LOGO" src="{% static 'img/logo.svg' %}" /></div>
-              <div class="flexcontainer">
-                <span class="span">Welcome, {{ user }}! To<br /></span>
-                <p class="text">
-                  <span class="span">JKUAT<br /></span>
-                </p>
-                <p class="text"><span class="text-wrapper-4">Virtual Assisant</span></p>
-              </div> 
-              <div class="overlap-group-wrapper">
-                <div class="overlap-group-2">
-                  <div class="rectangle-3"></div>
-                  <div class="rectangle-4"></div>
-                </div>
-              </div>
-            </div>
-            <span class="close-button" id="close-button">×</span>
-            <div class="chat-messages" id="chat-messages">
-                <!-- Chat messages will be displayed here -->
-            </div>
-            <div class="chat-input">
-                <div class="user-input-container">
-                    <input type="text" id="user-input" placeholder="Type a message...">
-                    <button id="send-button">Send</button>
-                </div>
-            </div>
-    </div>    
     
     <footer>
         <p>&copy; 2023 JKUAT</p>

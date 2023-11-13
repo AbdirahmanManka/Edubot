@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-rc^*w^w&6g9_(uvx#6s*bnt!w)l0rdi%!l7mv#y%uc&x%wo5pk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -87,9 +87,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': "railway",
         'USER': "postgres",
-        'PASSWORD': "iUbBS8BDf0zsY5Y6bpd0",
-        'HOST': "containers-us-west-153.railway.app",
-        'PORT': "6910",
+        'PASSWORD': "eC51g*eabfb65GDEbB2Fb-B463F1C*66",
+        'HOST': "monorail.proxy.rlwy.net",
+        'PORT': "37780",
     }
 }
 
@@ -147,4 +147,4 @@ LOGIN_REDIRECT_URL = 'home'  # URL to redirect to after successful login
 CSRF_COOKIE_SECURE = False
 CSRF_COOKIE_SAMESITE = None
 
-
+AUTH_USER_MODEL = 'bot.UserProfile'

@@ -8,40 +8,55 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.http import JsonResponse
 from difflib import get_close_matches
-from .models import Conversation
+from .models import Conversation, UserProfile
+from django.db import IntegrityError
+
+def home(request):
+    return render(request, 'home.html')
 
 def login(request):
     if request.method == 'POST':
         user_email = request.POST.get('user_email')
         admission_number = request.POST.get('admission_number')
 
-        try:
-            # Check if the user with provided email and admission number exists (case-insensitive)
-            student = Student.objects.get(email__iexact=user_email, admission_number=admission_number)
+        user_profile = UserProfile.objects.filter(user_email=user_email, admission_number=admission_number).first()
 
-            # Set a session variable to indicate that the user is logged in
-            request.session['user_email'] = student.email  # Use the exact email from the database
-
-            # messages.success(request, f"Welcome, {student.name}!")
-            user = student.name
-            return render(request, 'home.html', {'user': user}) # Redirect to the home page after successful login
-        
-        except Student.DoesNotExist:
-            # If the student does not exist, show an error message
-            messages.error(request, 'Invalid email or admission number. Please try again.')
+        if user_profile is not None:
+            # Use authenticate to check credentials
+            user = authenticate(request, user_email=user_email, admission_number=admission_number)
+            print(user)
+            if user is not None:
+                messages.error(request, 'Invalid login credentials.')  
+            else:
+                return redirect('home')
+        else:
+            messages.error(request, 'User not found. Please check your credentials.')
 
     return render(request, 'login.html')
 
+def signup(request):
+    if request.method == 'POST':
+        user_email = request.POST.get('user_email')
+        admission_number = request.POST.get('admission_number')
+
+        try:
+            UserProfile.objects.create(user_email=user_email, admission_number=admission_number)
+            messages.success(request, 'Signup successful. You can now login.')
+            return redirect('home')  
+        except IntegrityError as e:
+            messages.error(request, 'User with this email already exists. Please use a different email.')
+
+    return render(request, 'signup.html')
+
 def user_logout(request):
     logout(request)
-    return redirect('login')  # Redirect to the custom_login page after logout
+    return redirect('login')  
 
 def chatbot_response(request):
     user_message = request.POST.get('userMessage')  
     chatbot_response = generate_chatbot_response(user_message)
     return JsonResponse({'response': chatbot_response})
 
-# Load the knowledge base from a JSON file
 def load_knowledge_base(file_name):
     data_dir = os.path.join(os.path.dirname(__file__), 'data')  # 'data' folder
     file_path = os.path.join(data_dir, file_name)

@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
 from .models import Conversation, Student, UserProfile
 
 class ConversationAdmin(admin.ModelAdmin):
@@ -13,6 +14,8 @@ class StudentAdmin(admin.ModelAdmin):
 
 admin.site.register(Student, StudentAdmin)
 
-@admin.register(UserProfile)
-class UserProfileAdmin(admin.ModelAdmin):
-    list_display = ('user_email', 'admission_number')
+class UserProfileAdmin(UserAdmin):
+    model = UserProfile
+    list_display = ['username', 'email', 'is_staff']
+
+admin.site.register(UserProfile, UserProfileAdmin)

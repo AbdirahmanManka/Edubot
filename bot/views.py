@@ -5,52 +5,46 @@ from django.http import JsonResponse, HttpResponse
 from .models import Student
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import authenticate, login as auth_login
 from django.http import JsonResponse
 from difflib import get_close_matches
 from .models import Conversation, UserProfile
 from django.db import IntegrityError
+from django.contrib.auth import get_user_model
+from .forms import CustomUserCreationForm
 
 def home(request):
     return render(request, 'home.html')
 
 def login(request):
     if request.method == 'POST':
-        user_email = request.POST.get('user_email')
-        admission_number = request.POST.get('admission_number')
+        user_email = request.POST.get('email')
+        password = request.POST.get('password')
 
-        user_profile = UserProfile.objects.filter(user_email=user_email, admission_number=admission_number).first()
+        user = authenticate(request, email=user_email, password=password)
 
-        if user_profile is not None:
-            # Use authenticate to check credentials
-            user = authenticate(request, user_email=user_email, admission_number=admission_number)
-            print(user)
-            if user is not None:
-                messages.error(request, 'Invalid login credentials.')  
-            else:
-                return redirect('home')
+        if user is not None:
+            auth_login(request, user)  
+            return redirect('home')
         else:
-            messages.error(request, 'User not found. Please check your credentials.')
+            messages.error(request, 'Invalid login credentials.')
 
     return render(request, 'login.html')
 
 def signup(request):
     if request.method == 'POST':
-        user_email = request.POST.get('user_email')
-        admission_number = request.POST.get('admission_number')
-
-        try:
-            UserProfile.objects.create(user_email=user_email, admission_number=admission_number)
+        form = CustomUserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
             messages.success(request, 'Signup successful. You can now login.')
-            return redirect('home')  
-        except IntegrityError as e:
-            messages.error(request, 'User with this email already exists. Please use a different email.')
+            return redirect('login')
+        else:
+            messages.error(request, 'An error occurred.')
+            print(form.errors)
+    else:
+        form = CustomUserCreationForm()
 
-    return render(request, 'signup.html')
-
-def user_logout(request):
-    logout(request)
-    return redirect('login')  
+    return render(request, 'signup.html', {'form': form})
 
 def chatbot_response(request):
     user_message = request.POST.get('userMessage')  

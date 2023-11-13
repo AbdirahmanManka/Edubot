@@ -167,7 +167,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #007bff; /* Or your chosen color */
+    background: #2d6202; /* Or your chosen color */
     color: white;
     padding: 10px;
   }
@@ -223,7 +223,7 @@ footer {
   }
   
   #send-button {
-    background-color: #007bff; /* Vibrant color for the button */
+    background-color: #2d6202; /* Vibrant color for the button */
     color: white;
     padding: 12px 20px;
     font-size: 16px;
@@ -249,7 +249,7 @@ footer {
     position: fixed;
     bottom: 20px; /* Position it where you want on the screen */
     right: 20px;
-    background: #007bff;
+    background: #2d6202;
     color: white;
     border: none;
     border-radius: 50%;

@@ -113,6 +113,3 @@ def save_conversation(request):
         return JsonResponse({'status': 'success'})
 
     return JsonResponse({'status': 'error'})
-
-
-

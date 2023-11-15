@@ -24,52 +24,88 @@ function getCookie(name) {
 function sendMessageToChatbot() {
     const userMessage = userInput.value.trim();
     if (userMessage === '') {
-        return;
+        return; 
     }
 
-    console.log('User clicked send button:', userMessage);
-
     appendMessage('user', userMessage);
+    showTypingAnimation();
 
     const csrftoken = getCookie('csrftoken');
 
     userInput.value = '';
 
     $.ajax({
-        url: '/chatbot_response/',
+        url: '/chatbot_response/',  
         data: { userMessage: userMessage },
         dataType: 'json',
-        method: 'POST',
-        headers: { 'X-CSRFToken': csrftoken },
+        method: 'POST',  
+        headers: { 'X-CSRFToken': csrftoken }, 
         success: function (data) {
             const chatbotResponse = data.response;
 
-            console.log('Chatbot response received:', chatbotResponse);
-
-            appendMessage('typing', 'Typing...');
-
-            setTimeout(function () {
-                removeLastMessage();
-
+            setTimeout(function() {
+                removeTypingAnimation();
                 appendMessage('bot', chatbotResponse);
-
                 chatMessages.scrollTop = chatMessages.scrollHeight;
-            }, 1500);
-
-            saveConversationToDatabase(userMessage, chatbotResponse);
+                saveConversationToDatabase(userMessage, chatbotResponse);
+            }, 1500); 
         },
         error: function () {
-            console.error('An error occurred while processing your request.');
+            removeTypingAnimation();
+            alert('An error occurred while processing your request.');
         },
     });
 }
 
+function showTypingAnimation() {
+    const typingElement = document.createElement('div');
+    typingElement.className = 'message typing-message';
+    typingElement.innerText = 'Typing...';
+    chatMessages.appendChild(typingElement);
+}
+
+function removeTypingAnimation() {
+    const typingMessage = chatMessages.querySelector('.typing-message');
+    if (typingMessage) {
+        chatMessages.removeChild(typingMessage);
+    }
+}
+
+const MAX_MESSAGES = 20; 
+const allMessages = [];
+
 function appendMessage(sender, message) {
     const messageElement = document.createElement('div');
-    messageElement.className = `message ${sender}-message`;
+    const messageClass = sender === 'user' ? 'sent-message' : 'received-message';
+    messageElement.className = `message ${messageClass}`;
     messageElement.innerText = message;
-    chatMessages.appendChild(messageElement);
+    
+    allMessages.push({ sender, message });
+
+    updateChatContainer();
+
+    chatMessages.scrollTop = chatMessages.scrollHeight;
 }
+
+function updateChatContainer() {
+    const startIndex = Math.max(0, allMessages.length - MAX_MESSAGES);
+
+    const visibleMessages = allMessages.slice(startIndex);
+
+    chatMessages.innerHTML = '';
+
+    visibleMessages.forEach(({ sender, message }) => {
+        const messageElement = document.createElement('div');
+        const messageClass = sender === 'user' ? 'sent-message' : 'received-message';
+        messageElement.className = `message ${messageClass}`;
+        messageElement.innerText = message;
+        chatMessages.appendChild(messageElement);
+    });
+}
+
+chatMessages.addEventListener('scroll', function () {
+    updateChatContainer();
+});
 
 function removeLastMessage() {
     const lastMessage = chatMessages.lastChild;

@@ -273,4 +273,26 @@ footer {
     font-size: 20px;
     cursor: pointer;
 }
-  
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.sent-message {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 12px 12px 12px 0px;
+    align-self: flex-end;
+    margin-left: 20%;
+}
+
+.received-message {
+    background-color: #ddd;
+    color: black;
+    border-radius: 12px 12px 0px 12px;
+    align-self: flex-start;
+    margin-right: 20%;
+}

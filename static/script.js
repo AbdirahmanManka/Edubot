@@ -43,13 +43,12 @@ function sendMessageToChatbot() {
         success: function (data) {
             const chatbotResponse = data.response;
 
-            // Simulate typing delay
             setTimeout(function() {
                 removeTypingAnimation();
                 appendMessage('bot', chatbotResponse);
                 chatMessages.scrollTop = chatMessages.scrollHeight;
                 saveConversationToDatabase(userMessage, chatbotResponse);
-            }, 1500); // Adjust the delay time (in milliseconds) as needed
+            }, 1500); 
         },
         error: function () {
             removeTypingAnimation();

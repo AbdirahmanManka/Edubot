@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser
 
 class Conversation(models.Model):
-    user_email = models.EmailField()
     message = models.TextField()
     bot_response = models.TextField()
     timestamp = models.DateTimeField(auto_now_add=True)

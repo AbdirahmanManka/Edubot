@@ -3,7 +3,7 @@ from django.contrib.auth.admin import UserAdmin
 from .models import Conversation, Student, UserProfile
 
 class ConversationAdmin(admin.ModelAdmin):
-    list_display = ('user_email', 'message', 'timestamp')
+    list_display = ('message', 'timestamp')
 
 admin.site.register(Conversation, ConversationAdmin)
 

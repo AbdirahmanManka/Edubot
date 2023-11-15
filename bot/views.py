@@ -82,16 +82,12 @@ def find_best_match(user_question, questions):
 
 from django.contrib.auth.decorators import login_required
 
-@login_required
 def save_conversation(request):
     if request.method == 'POST':
         user_message = request.POST.get('userMessage')
         chatbot_response = request.POST.get('chatbotResponse')
 
-        user_email = request.user.email  
-
         Conversation.objects.create(
-            user_email=user_email,
             message=user_message,
             bot_response=chatbot_response
         )

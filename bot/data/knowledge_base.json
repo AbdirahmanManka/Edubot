@@ -1,6 +1,22 @@
 {
   "questions": [
     {
+      "question": "hi",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Hello",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Good Morning",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Good Evening",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
       "question": "How can I apply for Government-sponsored admission?",
       "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
     },
@@ -62,6 +78,22 @@
     {
       "question": "What is the September admission session for JKUAT?",
       "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "hi",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Hello",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Good Morning",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Good Evening",
+      "answer": "Hello, how are you, how can I help you today?"
     },
     {
       "question": "What is the application fee for Degree/Postgraduate Courses?",
@@ -1444,6 +1476,22 @@
       "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
     },
     {
+      "question": "hi",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Hello",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Good Morning",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Good Evening",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
       "question": "What is the role of KUCCPS in the admission process?",
       "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
     },
@@ -1547,6 +1595,22 @@
     {
       "question": "What are the minimum entry requirements for Diploma courses?",
       "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "hi",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Hello",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Good Morning",
+      "answer": "Hello, how are you, how can I help you today?"
+    },
+    {
+      "question": "Good Evening",
+      "answer": "Hello, how are you, how can I help you today?"
     },
     {
       "question": "How much is the application fee for Degree courses?",

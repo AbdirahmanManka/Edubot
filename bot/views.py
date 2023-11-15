@@ -1,16 +1,12 @@
 import json
 import os
 from django.shortcuts import render, redirect
-from django.http import JsonResponse, HttpResponse
-from .models import Student
+from django.http import JsonResponse
 from django.contrib import messages
-from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login as auth_login
 from django.http import JsonResponse
 from difflib import get_close_matches
-from .models import Conversation, UserProfile
-from django.db import IntegrityError
-from django.contrib.auth import get_user_model
+from .models import Conversation
 from .forms import CustomUserCreationForm
 
 def home(request):

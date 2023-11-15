@@ -1,113 +1,112 @@
 // Select elements
 const chatContainer = document.querySelector('.chat-container');
 const chatIcon = document.querySelector('.chat-icon-button');
-const chatMessages = document.getElementById('chat-messages');
-const userInput = document.getElementById('user-input');
+const chatMessages = document.getElementById('chat-window');
+const userInput = document.getElementById('chat-input');
 const closeBtn = document.querySelector('.close-button');
 const sendButton = document.getElementById('send-button');
 
-$(document).ready(function() {
-    $("#chatbot-toggle").click(function() {
+$(document).ready(function () {
+    $("#chatbot-toggle").click(function () {
         $("#chat-container").toggle();
     });
 
-    // Close the chat container
-    $("#close-chat").click(function() {
+    $("#close-chat").click(function () {
         $("#chat-container").hide();
     });
 });
 
-
-// Function to get the CSRF token from cookies
 function getCookie(name) {
     const cookieValue = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
     return cookieValue ? cookieValue.pop() : '';
 }
 
-// Function to send a message to the chatbot and update the chat window
 function sendMessageToChatbot() {
-    const userMessage = userInput.value;
-    const userMessageElement = document.createElement('div');
-    userMessageElement.className = 'message user-message';
-    userMessageElement.innerText = userMessage;
-    chatMessages.appendChild(userMessageElement);
+    const userMessage = userInput.value.trim();
+    if (userMessage === '') {
+        return;
+    }
 
-    // Get the CSRF token from cookies
+    console.log('User clicked send button:', userMessage);
+
+    appendMessage('user', userMessage);
+
     const csrftoken = getCookie('csrftoken');
 
-    // Clear the user input field
     userInput.value = '';
 
-    // Send the user message to the server for processing using POST
     $.ajax({
-        url: '/chatbot_response/',  // Update with the correct URL
+        url: '/chatbot_response/',
         data: { userMessage: userMessage },
         dataType: 'json',
-        method: 'POST',  // Use POST method
-        headers: { 'X-CSRFToken': csrftoken }, // Include CSRF token in headers
+        method: 'POST',
+        headers: { 'X-CSRFToken': csrftoken },
         success: function (data) {
             const chatbotResponse = data.response;
 
-            // Add typing animation before displaying the response
-            const typingElement = document.createElement('div');
-            typingElement.className = 'message typing-message';
-            typingElement.innerText = 'Typing...';
-            chatMessages.appendChild(typingElement);
+            console.log('Chatbot response received:', chatbotResponse);
 
-            // Delay the response display
+            appendMessage('typing', 'Typing...');
+
             setTimeout(function () {
-                // Remove the typing animation
-                chatMessages.removeChild(typingElement);
+                removeLastMessage();
 
-                // Display the bot's response
-                const chatbotResponseElement = document.createElement('div');
-                chatbotResponseElement.className = 'message bot-message';
-                chatbotResponseElement.innerText = chatbotResponse;
-                chatMessages.appendChild(chatbotResponseElement);
+                appendMessage('bot', chatbotResponse);
 
                 chatMessages.scrollTop = chatMessages.scrollHeight;
-            }, 1500); // Adjust the delay time (in milliseconds) as needed
+            }, 1500);
 
             saveConversationToDatabase(userMessage, chatbotResponse);
         },
         error: function () {
-            // Handle errors if any
-            alert('An error occurred while processing your request.');
+            console.error('An error occurred while processing your request.');
         },
     });
 }
 
+function appendMessage(sender, message) {
+    const messageElement = document.createElement('div');
+    messageElement.className = `message ${sender}-message`;
+    messageElement.innerText = message;
+    chatMessages.appendChild(messageElement);
+}
+
+function removeLastMessage() {
+    const lastMessage = chatMessages.lastChild;
+    if (lastMessage) {
+        chatMessages.removeChild(lastMessage);
+    }
+}
+
+sendButton.addEventListener('click', function () {
+    console.log('User clicked send button (using event listener)');
+    sendMessageToChatbot();
+});
+
+userInput.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        console.log('User pressed Enter key');
+        sendMessageToChatbot();
+    }
+});
+
 function saveConversationToDatabase(userMessage, chatbotResponse) {
     const csrftoken = getCookie('csrftoken');
-    
-    // Send a POST request to a Django view that saves the conversation to the database
+
     $.ajax({
-        url: '/save_conversation/',  // Create a URL for saving the conversation
+        url: '/save_conversation/',
         data: {
             userMessage: userMessage,
             chatbotResponse: chatbotResponse,
         },
         dataType: 'json',
-        method: 'POST',  // Use POST method
-        headers: { 'X-CSRFToken': csrftoken }, // Include CSRF token in headers
+        method: 'POST',
+        headers: { 'X-CSRFToken': csrftoken },
         success: function () {
-            // Conversation saved successfully
-            console.log('saved');
+            console.log('Conversation saved to the database');
         },
         error: function () {
-            // Handle errors if any
-            alert('An error occurred while saving the conversation.');
+            console.error('An error occurred while saving the conversation to the database.');
         },
     });
 }
-
-// Event listeners for user input
-sendButton.addEventListener('click', sendMessageToChatbot);
-userInput.addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-        sendMessageToChatbot();
-    }
-});
-
-
-

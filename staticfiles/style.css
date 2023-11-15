@@ -144,10 +144,6 @@ footer {
         content: 'Typing....';
     }
 }
-
-body {
-    padding-bottom: 510px; /* Height of the chatbot plus some extra space */
-  }
 /* Chat container */
 #chat-container {
     position: fixed; /* Fixed positioning relative to the viewport */
@@ -171,7 +167,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #007bff; /* Or your chosen color */
+    background: #2d6202; /* Or your chosen color */
     color: white;
     padding: 10px;
   }
@@ -227,7 +223,7 @@ body {
   }
   
   #send-button {
-    background-color: #007bff; /* Vibrant color for the button */
+    background-color: #2d6202; /* Vibrant color for the button */
     color: white;
     padding: 12px 20px;
     font-size: 16px;
@@ -253,7 +249,7 @@ body {
     position: fixed;
     bottom: 20px; /* Position it where you want on the screen */
     right: 20px;
-    background: #007bff;
+    background: #2d6202;
     color: white;
     border: none;
     border-radius: 50%;
@@ -270,5 +266,11 @@ body {
     display: none;
   }
   
-  /* ... rest of your CSS for #chat-container and other elements ... */
+  .close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
   

@@ -1,49 +1,1685 @@
 {
   "questions": [
     {
-      "question": "What is the capital of France?",
-      "answer": "Paris"
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
     },
     {
-      "question": "Who wrote Romeo and Juliet?",
-      "answer": "William Shakespeare"
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
     },
     {
-      "question": "hello",
-      "answer": "hi"
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
     },
     {
-      "question": "hi",
-      "answer": "hello"
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
     },
     {
-      "question": "When is the next intake?",
-      "answer": "January 2024"
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
     },
     {
-      "question": "What programs will be offered?",
-      "answer": "Engineering or finance"
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
     },
     {
-      "question": "Engineering",
-      "answer": "Software Engeering, Mechanical, Electrical, Eaurospace"
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
     },
     {
-      "question": "Finance",
-      "answer": "CPA, MBA"
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
     },
     {
-      "question": "Any transfers allowed?",
-      "answer": "Inter-program transfer is currently open"
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
     },
     {
-      "question": "Qualifications needed for transer",
-      "answer": "You must have met the institutional cut-off points"
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
     },
     {
-      "question": "CS",
-      "answer": "Did you mean Computer Science?"
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
+    },{
+      "question": "How can I apply for Government-sponsored admission?",
+      "answer": "Government-sponsored admission is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS). Application forms are sent to secondary schools by KUCCPS."
+    },
+    {
+      "question": "What are the minimum entry requirements for Diploma courses?",
+      "answer": "For Diploma courses, the minimum KCSE mean grade is C (Plain) and C- (minus) depending on the discipline area."
+    },
+    {
+      "question": "How much is the application fee for Degree courses?",
+      "answer": "The application fee for Degree courses is Kshs. 1,500 (Kenya Shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Tell me about the College of Engineering and Technology (COETEC).",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "When is the next intake for Government-sponsored students?",
+      "answer": "The next intake for Government-sponsored students is in January 2024."
+    },
+    {
+      "question": "What are the qualifications needed for program transfer?",
+      "answer": "For program transfer, you must have met the institutional cut-off points."
+    },
+    {
+      "question": "How can I confirm my cluster weight points and admitted degree courses?",
+      "answer": "You can confirm your cluster weight points and admitted degree courses by visiting the KUCCPS offices at the University of Nairobi, Kenya Science Campus, or the universities you chose to study."
+    },
+    {
+      "question": "What are the qualifications for Master's Courses?",
+      "answer": "Holders of a Bachelor’s degree with at least 2nd Class Honours (Upper Division) in relevant fields."
+    },
+    {
+      "question": "What are the schools under the College of Engineering and Technology (COETEC)?",
+      "answer": "The College of Engineering and Technology comprises five schools: School of Architecture and Building Sciences, School of Biosystems and Environmental Engineering, School of Civil, Environmental and Geospatial Engineering, School of Electrical, Electronic and Information Engineering, and School of Mechanical, Manufacturing and Materials Engineering."
+    },
+    {
+      "question": "How much are the tuition fees for the programs?",
+      "answer": "The tuition fees for each program vary and are indicated against the courses offered in the booklet. Other statutory fees are also charged."
+    },{
+      "question": "How can I apply for Government-sponsored undergraduate degree courses?",
+      "answer": "Application for admission to public universities for Government-sponsored undergraduate degree courses is done through the Kenya Universities and Colleges Central Placement Services (KUCCPS)."
+    },
+    {
+      "question": "What is the role of KUCCPS in the admission process?",
+      "answer": "KUCCPS (Kenya Universities and Colleges Central Placement Services) manages the admission process for Government-sponsored undergraduate degree courses. It sends application forms to secondary schools, allows candidates to revise their degree choices based on performance, and determines cut-off points."
+    },
+    {
+      "question": "Where can I get application forms for Self-Sponsored Degree Programme (SSP) courses?",
+      "answer": "Application forms for SSP courses can be obtained from the University, campuses, or the University website upon payment of an application fee."
+    },
+    {
+      "question": "What are the minimum entry requirements for Certificate Courses?",
+      "answer": "The minimum entry requirement for Certificate Courses is KCSE mean grade C- (Minus) and D+ (plus) depending on the discipline area."
+    },
+    {
+      "question": "When are advertisements for SSP courses typically carried?",
+      "answer": "Advertisements for SSP courses are typically carried in the press in October/November, February/March, and June/July each year for admission in January, May, and September."
+    },
+    {
+      "question": "What is the September admission session for JKUAT?",
+      "answer": "The September admission session is the main intake session for JKUAT."
+    },
+    {
+      "question": "What is the application fee for Degree/Postgraduate Courses?",
+      "answer": "The application fee for Degree/Postgraduate Courses is Kshs. 1,500 (Kenya shillings one thousand five hundred only)."
+    },
+    {
+      "question": "Are there other statutory fees besides tuition fees?",
+      "answer": "Yes, besides tuition fees, there are other statutory fees. Details of statutory fees can be found on the university website or by contacting the Registrar (AA) Office, or the office of the Principals, Deans, and Directors of respective Colleges, School/Campuses/Centre."
     }
-
   ]
 }

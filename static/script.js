@@ -24,44 +24,51 @@ function getCookie(name) {
 function sendMessageToChatbot() {
     const userMessage = userInput.value.trim();
     if (userMessage === '') {
-        return;
+        return; 
     }
 
-    console.log('User clicked send button:', userMessage);
-
     appendMessage('user', userMessage);
+    showTypingAnimation();
 
     const csrftoken = getCookie('csrftoken');
 
     userInput.value = '';
 
     $.ajax({
-        url: '/chatbot_response/',
+        url: '/chatbot_response/',  
         data: { userMessage: userMessage },
         dataType: 'json',
-        method: 'POST',
-        headers: { 'X-CSRFToken': csrftoken },
+        method: 'POST',  
+        headers: { 'X-CSRFToken': csrftoken }, 
         success: function (data) {
             const chatbotResponse = data.response;
 
-            console.log('Chatbot response received:', chatbotResponse);
+            removeTypingAnimation();
 
-            appendMessage('typing', 'Typing...');
-
-            setTimeout(function () {
-                removeLastMessage();
-
-                appendMessage('bot', chatbotResponse);
-
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-            }, 1500);
+            appendMessage('bot', chatbotResponse);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
 
             saveConversationToDatabase(userMessage, chatbotResponse);
         },
         error: function () {
-            console.error('An error occurred while processing your request.');
+            removeTypingAnimation();
+            alert('An error occurred while processing your request.');
         },
     });
+}
+
+function showTypingAnimation() {
+    const typingElement = document.createElement('div');
+    typingElement.className = 'message typing-message';
+    typingElement.innerText = 'Typing...';
+    chatMessages.appendChild(typingElement);
+}
+
+function removeTypingAnimation() {
+    const typingMessage = chatMessages.querySelector('.typing-message');
+    if (typingMessage) {
+        chatMessages.removeChild(typingMessage);
+    }
 }
 
 const MAX_MESSAGES = 20; 

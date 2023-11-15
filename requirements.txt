@@ -11,6 +11,7 @@ confection
 cymem
 Django
 django-cors-headers
+gunicorn
 idna
 Jinja2
 joblib

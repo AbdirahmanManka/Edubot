@@ -286,11 +286,13 @@ footer {
     color: white;
     border-radius: 12px 12px 12px 0px;
     align-self: flex-end;
+    margin-left: 20%;
 }
 
 .received-message {
     background-color: #ddd;
     color: black;
-    border-radius: 0px 12px 12px 12px;
+    border-radius: 12px 12px 0px 12px;
     align-self: flex-start;
+    margin-right: 20%;
 }

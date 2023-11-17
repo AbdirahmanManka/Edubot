@@ -1,21 +1,29 @@
 import joblib
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-# Load the trained model
-classifier = joblib.load('chatbot_model.joblib')
+# Load the saved model
+loaded_model = joblib.load('chatbot_model.joblib')
 
-# Load the TF-IDF vectorizer
-vectorizer = joblib.load('tfidf_vectorizer.joblib')
+# Load the TF-IDF vectorizer used during training
+vectorizer = joblib.load('tfidf_vectorizer.joblib')  # Assuming you saved the vectorizer during training
 
-# Test the model
+# Define stop words
+stop_words = ['exit', 'stop', 'thank you']
+
 while True:
-    user_input = input("You: ")
-    if user_input.lower() == 'exit':
+    # User input
+    user_input = input("User: ")
+
+    # Check if user wants to exit
+    if any(stop_word in user_input.lower() for stop_word in stop_words):
+        print("Chatbot: Goodbye!")
         break
 
-    # Transform the user input using the loaded TF-IDF vectorizer
-    user_input_vectorized = vectorizer.transform([user_input])
+    # Preprocess the user input
+    user_input_tfidf = vectorizer.transform([user_input])
 
-    # Predict the response using the loaded model
-    response = classifier.predict(user_input_vectorized)
+    # Make a prediction using the loaded model
+    predicted_answer = loaded_model.predict(user_input_tfidf)
 
-    print(f"Bot: {response[0]}")
+    # Print the predicted answer
+    print("Chatbot:", predicted_answer[0])

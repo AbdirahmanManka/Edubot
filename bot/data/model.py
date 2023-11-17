@@ -1,36 +1,39 @@
-import json
-from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
-import joblib  # Import joblib to save the vectorizer
+import joblib
+import json
 
-# Load data from knowledge_base.json
-with open('knowledge_base.json', 'r') as file:
-    knowledge_base = json.load(file)
+# Load data from JSON file
+with open("knowledge_base.json", "r") as json_file:
+    data = json.load(json_file)
 
-questions = [entry['question'] for entry in knowledge_base['questions']]
-answers = [entry['answer'] for entry in knowledge_base['questions']]
+# Extract questions and answers
+questions = [q["question"] for q in data["questions"]]
+answers = [q["answer"] for q in data["questions"]]
 
-# Use TF-IDF for text representation
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(questions, answers, test_size=0.2, random_state=42)
+
+# TF-IDF Vectorization
 vectorizer = TfidfVectorizer()
-X = vectorizer.fit_transform(questions)  # Fit the vectorizer on the entire set of questions
-y = answers
+X_train_tfidf = vectorizer.fit_transform(X_train)
+X_test_tfidf = vectorizer.transform(X_test)
 
-# Save the fitted vectorizer
+# Save the TF-IDF vectorizer to a file
 joblib.dump(vectorizer, 'tfidf_vectorizer.joblib')
 
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# Train a Support Vector Machine (SVM) classifier
+clf = SVC(kernel='linear')
+clf.fit(X_train_tfidf, y_train)
 
-# Choose a classifier (Support Vector Machine in this example)
-classifier = SVC()
+# Make predictions
+predictions = clf.predict(X_test_tfidf)
 
-# Train the model
-classifier.fit(X_train, y_train)
+# Evaluate the model
+accuracy = accuracy_score(y_test, predictions)
+print("Model Accuracy:", accuracy)
 
-# Save the trained model
-joblib.dump(classifier, 'chatbot_model.joblib')
-
-
-
+# Save the model to a file
+joblib.dump(clf, 'chatbot_model.joblib')

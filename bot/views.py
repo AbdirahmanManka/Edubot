@@ -35,7 +35,7 @@ def signup(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Signup successful. You can now login.')
-            return redirect('user_login')
+            return redirect('login')
         else:
             messages.error(request, 'An error occurred.')
             print(form.errors)
@@ -115,5 +115,5 @@ def generate_chatbot_response(user_message):
             return "I'm sorry, I couldn't understand your request. If you want to help me learn, you can say 'learn' or 'update' and provide more information."
 
 def find_best_match(user_question, questions):
-    matches = get_close_matches(user_question, questions, n=10, cutoff=0.2)
+    matches = get_close_matches(user_question, questions, n=1, cutoff=0.5)
     return matches[0] if matches else None

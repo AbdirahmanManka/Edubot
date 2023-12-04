@@ -84,14 +84,15 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "railway",
-        'USER': "postgres",
-        'PASSWORD': "eC51g*eabfb65GDEbB2Fb-B463F1C*66",
-        'HOST': "monorail.proxy.rlwy.net",
-        'PORT': "37780",
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'Edubot',
+        'USER': 'maan',
+        'PASSWORD': '1010',
+        'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation

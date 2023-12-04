@@ -8,7 +8,7 @@ loaded_model = joblib.load('chatbot_model.joblib')
 vectorizer = joblib.load('tfidf_vectorizer.joblib')  # Assuming you saved the vectorizer during training
 
 # Define stop words
-stop_words = ['exit', 'stop', 'thank you']
+stop_words = ['exit', 'stop', 'thank you','close session']
 
 while True:
     # User input
